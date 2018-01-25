@@ -1,0 +1,8 @@
+<meta>
+    <script src="script.lua" type="client"></script>
+    <file src="arrow.png" />
+    <file src="shader.fx" />
+    <file src="1.dff" />
+    <file src="1.col" />
+    <oop>true</oop>
+</meta>

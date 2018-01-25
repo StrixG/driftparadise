@@ -1,0 +1,11 @@
+<meta>
+    <oop>true</oop>
+    <script src="server/utils.lua"   type="server"/>
+    <script src="server/encrypt.lua" type="server"/>
+
+    <!-- <file src="packs/dp_exhausts.bin"/>
+    <file src="packs/dp_wheels.bin"/>
+    <file src="packs/dp_spoilers.bin"/> -->
+    <script src="async.lua" type="client"/>
+    <script src="loader.lua" type="client"/>
+</meta>

@@ -1,0 +1,7 @@
+<meta>
+	<oop>true</oop>
+	<include resource="dpShared"/>
+	<script type="server" src="lib/underscore.lua"/>
+	<script type="server" src="lib/utils.lua"/>
+	<script type="server" src="main.lua"/>
+</meta>

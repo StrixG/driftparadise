@@ -1,0 +1,10 @@
+<meta>
+	<info type="script" name="dpRadio" version="1" />
+
+	<oop>true</oop>
+
+	<script src="utils.lua" type="client"/>
+	<script src="client.lua" type="client"/>
+
+	<export type="client" function="setEnabled"/>
+</meta>

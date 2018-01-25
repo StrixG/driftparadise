@@ -1,0 +1,20 @@
+<meta>
+	<oop>true</oop>
+	<script type="client" src="client/AntiFlood.lua"/>
+	<script type="client" src="client/WordsFilter.lua"/>
+	<script type="client" src="client/Chat.lua"/>
+	<script type="client" src="client/Input.lua"/>
+	<script type="client" src="client/commands.lua"/>
+	<script type="client" src="client/basic_chat.lua"/>
+	<script type="client" src="client/pm.lua"/>
+	<script type="client" src="client/exports.lua"/>
+
+	<script type="server" src="server/commands.lua"/>
+	<script type="server" src="server/basic_chat.lua"/>
+	<script type="server" src="server/pm.lua"/>
+
+	<export type="client" function="setVisible"/>
+	<export type="client" function="message"/>
+	<export type="client" function="startPM"/>
+	<export type="server" function="message"/>
+</meta>

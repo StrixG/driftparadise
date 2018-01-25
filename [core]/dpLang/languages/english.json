@@ -1,0 +1,592 @@
+{
+	// Drift Paradise 2.0
+	// English language
+	// Created by Nikita Bredikhin (Wherry)
+
+	// =============================================
+	// ================== General ==================
+	// =============================================
+	"message_box_close": "Close",
+	"controls_arrows": "Arrows",
+	"controls_mouse": "Mouse",
+	"controls_space": "Space",
+	"controls_mouse_wheel": "Mouse wheel",
+	"price_free": "Free",
+	"skin_select_text": "Select your character",
+	"player_level": "Level",
+	"player_money": "Money",
+
+	"groups_player": "Player",
+	"groups_moderator": "Moderator",
+	"groups_admin": "Admin",
+
+	"race_type_drift": "Drift",
+	"race_type_drag": "Drag",
+	"race_type_sprint": "Sprint",
+	"race_type_circle": "Lap race",
+
+	"quit_reason_unknown": "disconnect",
+	"quit_reason_quit": "disconnect",
+	"quit_reason_kicked": "kicked",
+	"quit_reason_banned": "banned",
+	"quit_reason_bad connection": "bad connection",
+	"quit_reason_timed out": "timed out",
+
+	// =============================================
+	// =================== Intro ===================
+	// =============================================
+	"intro_credits_1": "Drift Allstars",
+	"intro_credits_2": "Fuck The Clearance",
+	"intro_credits_3": "and Russian Racing Club",
+	"intro_credits_4": "present",
+	"intro_press_to_start": "Press SPACE to start",
+
+	"tutorial_skin_select_title": "Welcome to Drift Paradise!",
+	"tutorial_skin_select_text": "We are happy to see you here! Here you will find funny races, awesome car customization system and lots of other unique features. Now it's time to choose your character! Use %s to select.",
+	"tutorial_car_shop_title": "Car shop",
+	"tutorial_car_shop_text": "Welcome to car shop! We gave you %s, so you can buy your first car! Use %s, to select cars. Look around with your %s. Press %s to buy selected car.",
+	"tutorial_garage_title": "Garage",
+	"tutorial_garage_text": "This is your garage. Here you can always access your cars. There is also a tuning section where you can upgrade and customize your vehicle. Most of upgrades are unlocked with new level. To get new %s you need to race against other players.",
+	"tutorial_city_title": "City",
+	"tutorial_city_text": "Welcome to Los Santos! Now you are able to open main menu by pressing %s. There you will find a lot of useful info. If you need help, you can open the %s menu. Now try to press %s to open map and %s. Good luck!",
+	"tutorial_city_race": "find your first race",
+
+	"help_panel_general_title": "General",
+	"help_panel_general_text": "Keys:\nF1 - main panel, teleports, settings\nF2 - cursor\n1 - toggle lights\n2 - toggle drift mode\nO - photo mode\nI toggle UI",
+
+	"help_panel_garage_title": "Garage",
+	"help_panel_garage_text": "You can use garage to access all your cars. You can also use it to sell your car and to customize it. Some of tuning parts are unlocked when you reach a certain level.",
+
+	"help_panel_races_title": "Races",
+	"help_panel_races_text": "Races are the easiest way to earn money. You can race against players with same car class. You can also call player to duel with you. To duel players use F2 -> RMB on player -> Duel.",
+
+	"help_panel_more_title": "Other",
+	"help_panel_more_text": "You can also use F2 and RMB on yourself or on your car to access actions.",
+
+	"help_panel_devs_title": "Developers",
+	"help_panel_devs_text": "MAIN DEVELOPERS\nDEFOLT - design and modeling\nElksnis - mapping, handling\nWherry - scripting\n\nLOCALIZATION\nWherry, DS_Matias, Romiz\n\nSPECIAL THANKS\nMOTHERS_BL3ND3R, Strix, KPoJIuK",
+
+	// =============================================
+	// ================= PhotoMode =================
+	// =============================================
+	"photo_mode_help_shoot": "Take a screenshot",
+	"photo_mode_help_roll": "Roll left/right",
+	"photo_mode_help_move": "Move",
+	"photo_mode_help_speed": "Move slower/faster",
+	"photo_mode_help_look": "Look",
+	"photo_mode_help_zoom": "Zoom in/out",
+	"photo_mode_help_updown": "Move up/down",
+	"photo_mode_help_smooth": "Toggle smooth movement",
+	"photo_mode_help_time": "Change time",
+	"photo_mode_help_weather": "Change weather",
+	"photo_mode_help_tips": "Toggle UI and help",
+	"photo_mode_help_exit": "Exit from photo mode",
+	"photo_mode_param_time": "Time",
+	"photo_mode_param_weather": "Weather",
+	"photo_mode_param_weather_unknown": "Unknown",
+
+	// =============================================
+	// ================ Login panel ================
+	// =============================================
+	"login_panel_username_label": "Username",
+	"login_panel_password_label": "Password",
+	"login_panel_password_confirm_label": "Confirm password",
+	"login_panel_beta_key_label": "Beta test access key",
+	"login_panel_start_game_button": "Start game",
+	"login_panel_register_button_toggle": "Register",
+	"login_panel_register_button": "Register",
+	"login_panel_language": "Select language",
+	"login_panel_color": "Color",
+	"login_panel_back": "Back",
+	"login_panel_server_not_available": "Drift Paradise server is currently not available",
+	"login_panel_server_error": "Server error",
+
+	// ==============================================
+	// ================= World map ==================
+	// ==============================================
+	"world_map_help_text": "%s - move camera, %s - zoom in/out, %s - exit",
+	"blip_garage": "Garage",
+	"blip_strip_club": "Strip club",
+	"blip_carshop": "Car shop",
+
+	// ==============================================
+	// ================= Tab panel ==================
+	// ==============================================
+	"tab_panel_column_id": "ID",
+	"tab_panel_column_nickname": "Nickname",
+	"tab_panel_column_money": "Money",
+	"tab_panel_column_level": "Level",
+	"tab_panel_players_online": "Players online",
+	"tab_panel_group_moderators": "Moderators",
+	"tab_panel_group_premium": "Donators",
+	"tab_panel_group_players": "Players",
+
+	// =============================================
+	// ================ Message box ================
+	// =============================================
+	"login_panel_auth_error": "Authorization error",
+	"login_panel_register_error": "Registration error",
+
+	"login_panel_err_enter_username": "Enter your username",
+	"login_panel_err_enter_password": "Enter your password",
+	"login_panel_err_login_unknown": "Failed to login",
+	"login_panel_err_register_unknown": "Failed to register",
+	"login_panel_err_bad_password": "Wrong password",
+	"login_panel_err_user_not_found": "User not found",
+	"login_panel_err_account_in_use": "This account is already in use",
+	"login_panel_err_username_taken": "This username is already taken",
+	"login_panel_register_success": "Registration successfull!",
+
+	"login_panel_err_username_too_short": "Username is too short",
+	"login_panel_err_username_too_long": "Username is too long",
+	"login_panel_err_password_too_short": "Password is too short",
+	"login_panel_err_password_too_long": "Password is too long",
+	"login_panel_err_username_invalid": "Username contains illegal characters",
+	"login_panel_err_enter_password_confirm": "Enter password confirmation",
+	"login_panel_err_passwords_do_not_match": "Your passwords do not match!",
+	"login_panel_err_beta_key_invalid": "Your beta key is invalid",
+	"login_panel_err_account_banned": "This account is banned",
+
+	// ======================================================
+	// ================== Chat messages =====================
+	// ======================================================
+	"chat_message_login_success": "You have successfully logged in",
+	"chat_message_player_join": "Player %s has joined the server",
+	"chat_message_player_quit": "Player %s has left the server (%s)",
+	"chat_message_dont_flood": "Don't flood!",
+	"chat_message_muted": "You are temporary muted by administrator",
+	"chat_adminsay_admin": "Admin",
+	"chat_adminsay_moderator": "Moderator",
+	"chat_admin_mute": "Player %s has been muted by %s for %s seconds",
+	"chat_admin_unmute": "Players %s has been unmuted by %s.",
+	"chat_admin_ban": "Player %s has been banned %s",
+
+	// =====================================
+	// ============= Garage ================
+	// =====================================
+	"garage_no_vehicle_error": "You must be in a car to enter garage",
+	"garage_not_driver": "You must be driving this car to enter garage",
+	"garage_has_occupants": "You must be the only car occupant to enter garage",
+	"garage_not_owner": "You must car owner to enter garage",
+	"garage_not_logged_in": "You must be logged in to enter garage",
+	"garage_enter_failed": "Failed to enter garage",
+
+	"garage_menu_go_city": "Take car",
+	"garage_menu_customize": "Tuning",
+	"garage_menu_settings": "Settings",
+	"garage_menu_sell": "Sell car",
+	"garage_menu_exit": "Exit garage",
+
+	"garage_menu_customize_components": "Components",
+	"garage_menu_customize_paint": "Paint",
+	"garage_menu_customize_stickers": "Vinyls",
+	"garage_menu_customize_config": "Configuration",
+
+	"garage_menu_settings_bumper": "Remove rear bumper",
+	"garage_menu_back": "Back",
+
+	"garage_sell_text": "Sell this car for",
+	"garage_sell_confirm": "confirm",
+	"garage_sell_last_car": "You can't sell your last car!",
+
+	// ========================================
+	// ================ Tuning ================
+	// ========================================
+	"garage_tuning_component_front_bump": "Front bumper",
+	"garage_tuning_component_rear_bump": "Rear bumper",
+	"garage_tuning_component_side_skirts": "Side skirts",
+	"garage_tuning_component_wheels_front": "Front wheels",
+	"garage_tuning_component_wheels_rear": "Rear wheels",
+	"garage_tuning_component_wheels": "Wheels",
+	"garage_tuning_component_spoilers": "Spoiler",
+	"garage_tuning_component_rear_fends": "Rear Fenders",
+	"garage_tuning_component_front_fends": "Front Fenders",
+	"garage_tuning_component_bonnet": "Bonnet",
+	"garage_tuning_component_rear_lights": "Rear lights",
+	"garage_tuning_component_front_lights": "Fronts lights",
+	"garage_tuning_component_exhaust": "Exhaust",
+	"garage_tuning_component_numberplate": "Number plate",
+
+	"garage_tuning_paint_body": "Body color",
+	"garage_tuning_paint_wheels_front": "Front rims color",
+	"garage_tuning_paint_wheels_rear": "Rear rims color",
+	"garage_tuning_paint_wheels": "Rims color",
+	"garage_tuning_paint_spoiler": "Spoiler color",
+
+	"garage_tuning_paint_hue": "Hue",
+	"garage_tuning_paint_saturation": "Saturation",
+	"garage_tuning_paint_brightness": "Brightness",
+
+	"garage_tuning_item_bumper": "Bumper",
+	"garage_tuning_item_spoiler": "Spoiler",
+	"garage_tuning_item_wheel": "Wheels",
+	"garage_tuning_item_skirt": "Skirts",
+	"garage_tuning_item_fender": "Fenders",
+	"garage_tuning_item_bonnet": "Bonnet",
+	"garage_tuning_item_exhaust": "Exhaust",
+	"garage_tuning_item_lights": "Lights",
+
+	"garage_tuning_side_top": "Top side",
+	"garage_tuning_side_right": "Right side",
+	"garage_tuning_side_left": "Left side",
+	"garage_tuning_side_front": "Front side",
+	"garage_tuning_side_back": "Rear side",
+
+	"garage_tuning_stickers_figures": "Figures",
+	"garage_tuning_stickers_letters": "Letters",
+	"garage_tuning_stickers_flags": "Flags",
+	"garage_tuning_stickers_numbers": "Numbers",
+	"garage_tuning_stickers_brands": "Brands",
+	"garage_tuning_stickers_other": "Other",
+
+	"garage_tuning_config_front_wheels": "Front wheels",
+	"garage_tuning_config_rear_wheels": "Rear wheels",
+	"garage_tuning_config_suspension": "Suspension",
+	"garage_tuning_config_upgrades": "Upgrades",
+	"garage_tuning_config_wheels_size": "Wheels radius",
+
+	"garage_tuning_config_suspension_label": "Suspension height",
+	"garage_tuning_config_wheels_size_label": "Wheels radius",
+
+	"garage_tuning_config_wheels_offset": "Offset",
+	"garage_tuning_config_wheels_angle": "Angle",
+	"garage_tuning_config_wheels_width": "Width",
+
+	"garage_tuning_config_street_upgrade": "\"Street\" configuration",
+	"garage_tuning_config_street_description": "Faster speed and acceleration, improved controls",
+	"garage_tuning_config_drift_upgrade": "\"Drift\" configuration",
+	"garage_tuning_config_drift_description": "Special Drift Mode that can be enabled or disabled at any time",
+
+	"garage_tuning_buy_button": "Buy",
+	"garage_tuning_stock_text": "Default",
+	"garage_tuning_install_button": "Apply",
+
+	"garage_help_text": "%s - change, %s - select, %s - back, %s - free look",
+	"garage_help_sticker_selection": "%s - change, %s - buy, %s - cancel",
+	"garage_help_sticker_editor": "%s - control, %s, %s, %s, %s - change mode, %s/%s - add/remove sticker, %s - back",
+	"garage_help_numberplate": "Enter text, %s - delete text, %s - save, %s - cancel",
+
+	"garage_sticker_editor_move": "Move",
+	"garage_sticker_editor_rotate": "Rotate",
+	"garage_sticker_editor_scale": "Scale",
+	"garage_sticker_editor_color": "Change color",
+
+	"garage_sticker_editor_help_add": "Add sticker",
+	"garage_sticker_editor_help_remove": "Remove sticker",
+	"garage_sticker_editor_help_clone": "Clone selected sticker",
+	"garage_sticker_editor_help_copy_style": "Apply previous sticker style",
+	"garage_sticker_editor_help_change_mode": "Change edit mode",
+	"garage_sticker_editor_help_speed": "Move slower/faster",
+	"garage_sticker_editor_help_scale": "Scale by one axis",
+	"garage_sticker_editor_help_transform": "Move, scale and rotate",
+	"garage_sticker_editor_help_mirroring": "Toggle mirroring",
+	"garage_sticker_editor_help_next_prev": "Select next/previous sticker",
+	"garage_sticker_editor_help_toggle": "Toggle help",
+
+	"garage_tuning_sticker_color": "Sticker color",
+	"garage_tuning_sticker_prev": "%s - previous",
+	"garage_tuning_sticker_next": "%s - next",
+	"garage_tuning_sticker_mirror": "%s - mirroring",
+	"garage_tuning_sticker_mirror_text": "%s - text mirroring",
+
+	// ====================================
+	// ============ Main panel ============
+	// ====================================
+	"main_panel_tab_account": "Account",
+	"main_panel_tab_teleport": "Teleports",
+	"main_panel_tab_settings": "Settings",
+	"main_panel_tab_garage": "Garage",
+	"main_panel_tab_races": "Races",
+
+	"main_panel_teleport_players": "Players",
+
+	"main_panel_account_donat": "Donate",
+	"main_panel_account_help": "Help",
+	"main_panel_account_money": "Money",
+	"main_panel_account_admin": "Admin",
+	"main_panel_account_player": "Player",
+	"main_panel_account_level": "Level progress",
+	"main_panel_account_regtime": "Registration date",
+	"main_panel_account_playtime": "Hours in-game",
+	"main_panel_account_cars_count": "Cars in garage",
+	"main_panel_account_house": "House",
+	"main_panel_account_house_yes": "yes",
+	"main_panel_account_house_no": "none",
+
+	"main_panel_settings_section_game": "Game settings",
+	"main_panel_settings_section_chat": "Chat settings",
+	"main_panel_settings_section_graphics": "Graphics settings",
+	"main_panel_settings_language": "Language",
+	"main_panel_settings_color": "UI color",
+	"main_panel_settings_joinquit_messages": "join/quit messages",
+	"main_panel_settings_chat_timestamp": "sending time",
+	"main_panel_settings_reflections_cars": "cars reflections",
+	"main_panel_settings_reflections_water": "water reflections",
+	"main_panel_settings_improved_car_lights": "improved car lights",
+	"main_panel_settings_improved_sky": "improved sky",
+	"main_panel_settings_screen_blur": "screen blur",
+	"main_panel_settings_tyres_smoke": "tyres smoke",
+	"main_panel_settings_snow": "snow",
+	"main_panel_settings_background_music": "background music",
+	"main_panel_setting_change_password": "Change password",
+
+	"main_panel_password_change_title": "Change account password",
+	"main_panel_new_password_label": "New password",
+	"main_panel_new_password_placeholder": "Enter new password",
+	"main_panel_new_password_repeat_label": "Repeat new password",
+	"main_panel_new_password_repeat_placeholder": "Enter new password again",
+	"main_panel_new_password_accept": "Accept",
+	"main_panel_new_password_cancel": "Back",	
+	"main_panel_password_change_message": "Password change",
+	"main_panel_password_change_error": "Failed to change your password",
+	"main_panel_password_change_success": "You have successfully changed your account password",
+
+	// ==========================================
+	// ================ Markers =================
+	// ==========================================
+	"markers_garage_text": "Press %q to enter garage",
+	"markers_city_text": "Press %q to teleport back to the city",
+	"markers_showroom_text": "Press %q to open car shop",
+	"markers_house_enter_text": "Press %q to enter house",
+	"markers_house_exit_text": "Press %q to exit",
+	"markers_house_knock_text": "Press %q to knock the door",
+	"markers_house_buy_text": "Press %q to open house buy menu",
+	"markers_strip_enter_text": "Press %q to enter strip club",
+	"markers_race_enter_text": "Press %q to enter race lobby",
+	"markers_tofu_text": "Press %q to start tofu mission",
+
+	// ====================================
+	// =========== House system ===========
+	// ====================================
+	"houses_info_price": "Price",
+	"houses_info_rooms_count": "Rooms count",
+	"houses_info_tv": "TV",
+	"houses_info_radio": "Radio",
+	"houses_info_console": "Gaming console",
+	"houses_info_yes": "Yes",
+	"houses_info_no": "No",
+
+	"houses_menu_sell": "Sell house",
+	"houses_menu_open_door": "Unlock door",
+	"houses_menu_close_door": "Lock door",
+	"houses_menu_kick": "Kick all players out",
+	"houses_menu_close": "Close",
+
+	"houses_buy_cancel": "Cancel",
+	"houses_buy_confirm": "Buy",
+
+	"houses_message_title": "House",
+	"houses_message_cant_buy": "You can't buy this house",
+	"houses_message_no_money": "You don't have enough money to buy this house",
+	"houses_message_already_have_house": "To buy this house you have to sell your old house first",
+	"houses_message_buy_success": "You have successfully bought this house!",
+	"houses_message_buy_fail": "Failed to buy this house. Please, try later",
+	"houses_message_sell_success": "You have successfully sold your house!",
+	"houses_message_sell_fail": "Failed to sell your house. Please, try later",
+	"houses_message_buy_confirm": "Are you sure you want to buy this house for %s?",
+	"houses_message_sell_confirm": "Are you sure you want to sell your house for %s?",
+
+	// Chat
+	"chat_tab_global": "Global",
+	"chat_tab_local": "Local",
+	"chat_input_message": "Message",
+
+	"chat_tab_russian": "Russian",
+	"chat_tab_english": "English",
+
+	"chat_pm_started": "Here you can send private messages to %s",
+	"chat_close_tab": "To close this tab, click it with right mouse button",
+
+	// Race
+	"race_error_title": "Race",
+	"race_error_no_vehicle": "You must be in a car to start race",
+	"race_error_not_owner": "You must be in a car owned by you!",
+	"race_lobby_close_button": "Close",
+	"race_lobby_play_button": "Start race",
+	"race_lobby_mode_classic": "Classic",
+	"race_lobby_mode_drift": "Drift",
+	"race_lobby_mode_drag": "Drag",
+	"race_lobby_text": "Race agains random players.\nWin to earn money and expierence.",
+
+	"race_search_accept": "Accept",
+	"race_search_race_fount": "Your race is ready!",
+	"race_search_press_accept": "Press \"Accept\", to start game",
+	"race_search_searching": "Searching:",
+	"race_search_searching_label": "Finding a race",
+	"race_search_players_in_search": "Players searching:",
+	"race_search_cancel": "Cancel",
+	"race_search_waiting_button": "Waiting...",
+	"race_search_waiting_label": "Waiting for players",
+	"race_search_players_ready_count": "Players ready: %s of %s",
+	"race_search_reject_error_title": "Race search",
+	"race_search_reject_error_body": "Someone didn't accept this race",
+
+	"race_drift_score": "Score",
+	"race_waiting_for_players": "Waiting for other players...",
+	"race_you_finished": "You finished!",
+	"race_waiting_for_finish": "Waiting for other players to finish",
+
+	"race_ui_quit_prompt_text": "Are you sure you want to leave this race?",
+	"race_ui_quit_prompt_leave": "Leave",
+	"race_ui_quit_prompt_cancel": "Cancel",
+	"race_finish_race_button": "Continue",
+
+	// Carshop
+	"carshop_label_speed": "Speed",
+	"carshop_label_acceleration": "Acceleration",
+	"carshop_label_control": "Control",
+
+	"carshop_buy_button": "Buy",
+	"carshop_required_level": "Required level %s",
+	"carshop_no_money": "Not enough money",
+	"carshop_buy_error_title": "Failed to buy car",
+	"carshop_buy_error_unknown": "Unknown error",
+	"carshop_drift_label": "Drift upgrade available",
+	"carshop_drift_label_yes": "Yes",
+	"carshop_drift_label_no": "No",
+
+	// Context menu
+	"context_menu_vehicle_door_lf_open": "Open left front door",
+	"context_menu_vehicle_door_rf_open": "Open right front door",
+	"context_menu_vehicle_door_lb_open": "Open left rear door",
+	"context_menu_vehicle_door_rb_open": "Open right rear door",
+	"context_menu_vehicle_door_lf_close": "Close left front door",
+	"context_menu_vehicle_door_rf_close": "Close right front door",
+	"context_menu_vehicle_door_lb_close": "Close left rear door",
+	"context_menu_vehicle_door_rb_close": "Close right rear door",
+
+	"context_menu_vehicle_lock": "Lock doors",
+	"context_menu_vehicle_unlock": "Unlock doors",
+
+	"context_menu_vehicle_enable_drift_mode": "Enable Drift Mode",
+	"context_menu_vehicle_disable_drift_mode": "Disable Drift Mode",
+
+	"context_menu_vehicle_lights_on": "Turn lights on",
+	"context_menu_vehicle_lights_off": "Turn lights off",
+
+	"context_menu_vehicle_handbrake_on": "Enable hand brake",
+	"context_menu_vehicle_handbrake_off": "Disable hand brake",
+
+	"context_menu_vehicle_engine_on": "Start engine",
+	"context_menu_vehicle_engine_off": "Stop engine",
+
+	"context_menu_player_profile": "Show player profile",
+	"context_menu_player_pm": "Send PM",
+	"context_menu_player_duel": "Duel...",
+	"context_menu_player_report": "Report player",
+
+	"context_menu_title_car": "Car",
+	"context_menu_title_player": "Player",
+
+	"context_menu_anim_hello": "Greeting",
+	"context_menu_anim_no": "Negative",
+	"context_menu_anim_bye": "Goodbye",
+	"context_menu_anim_wave": "Wave hand",
+	"context_menu_anim_lay": "Lay down",
+	"context_menu_anim_sit": "Sit",
+	"context_menu_anim_fucku": "Fck u",
+	"context_menu_anim_serious": "Hands crossed over chest",
+
+	// Duels
+	"duel_invite_error_title": "Error",
+	"duel_invite_duel_title": "Duel",
+	"duel_invite_local_nocar": "You must be in a car",
+	"duel_invite_local_not_owner": "You must be in your own car",
+	"duel_invite_remote_nocar": "Player must be in a car",
+	"duel_invite_remote_not_owner": "Player must be in his own car",
+	"duel_invite_too_far": "Player is too far from you",
+
+	"duel_invite_duel_with": "Duel with %s",
+	"duel_invite_call": "Call",
+	"duel_invite_cancel": "Cancel",
+	"duel_invite_bet_placeholder": "Bet amount",
+	"duel_invite_info_label": "To start duel with this player, enter bet amount and click 'Call'",
+
+	"duel_invite_error_player_left": "Player is not on the server",
+	"duel_invite_error_bad_bet_amount": "Invalid bet amount",
+	"duel_invite_error_bet_too_small": "You can't bet less than $%s",
+	"duel_invite_error_bet_too_big": "You can't bet more than $%s",
+	"duel_invite_error_not_enough_money": "Not enough money",
+	"duel_invite_error_player_not_enough_money": "Player has not enough money",
+	"duel_invite_invite_road_too_far": "You are too far from any road",
+
+	"duel_invite_invite_sent_body": "Duel invintation sent",
+	"duel_invite_invite_sent_chatmsg": "Duel invintation sent. Waiting for the response...",
+	"duel_invite_invite_player_cancelled": "Player didn't accept the duel",
+	"duel_invite_invite_server_cancelled": "Duel error",
+
+	"duel_accept_message": "Player %s wants to duel with you.\nBet: $%s",
+	"duel_accept_key_accept": "%s - accept (%s)",
+	"duel_accept_key_decline": "%s - decline",
+
+	"duel_winner_screen_you_won": "You won!",
+	"duel_winner_screen_you_lost": "You lost",
+	"duel_winner_screen_prize": "Prize",
+	"duel_winner_screen_time": "Time",
+	"duel_winner_screen_timeout": "Time is out!",
+
+	// Handling switching
+	"handling_switching_message_drift": "Switching to Drift mode...",
+	"handling_switching_message_street": "Switching to Street mode...",
+	"handling_switching_message_no_upgrade": "You don't have drift upgrade installed!",
+	"handling_switching_message_moving": "You have to stop your car to change mode!",
+	"handling_switching_message_forced": "You are not allowed to change mode here",
+
+	// Gift panel
+	"gift_key_panel_back": "Back",
+	"gift_key_panel_activate": "Activate key",
+	"gift_key_main_label": "Enter your gift key",
+	"gift_key_input_placeholder": "Gift key",
+	"gift_key_message_title": "Gift Keys",
+	"gift_key_message_fail": "Failed to activate your key",
+	"gift_key_message_success": "You have successfully activated your key!",
+
+	// Lobby screen
+	"lobby_screen_field_title": "Race",
+
+	"lobby_screen_field_prize": "Win money",
+	"lobby_screen_field_xp": "Win xp",
+	"lobby_screen_field_players": "Players in lobby",
+	"lobby_screen_field_class": "Car class",
+
+	"lobby_screen_enter_button": "Enter",
+
+	// Donation
+	"donation_message_title": "Donation",
+	"donation_message_text": "You have successfully purchased %s!",
+
+	// Tofu delivery
+	"tofu_blip_text": "Tofu delivery",
+	"tofu_finish_text": "You have delivered tofu!",
+	"tofu_prize_text": "Earned money",
+	"tofu_time_text": "Time passed",
+	"tofu_perfect_text": "for delivery without damage",
+	"tofu_fast_delivery_text": "for fast delivery",
+	"tofu_message_box_title": "Tofu delivery",
+	"tofu_message_box_text": "You have already taken tofu! Now follow the path",
+
+	// Radio
+	"radio_off": "Radio Off",
+	"radio_user_tracks": "User Tracks",
+
+	// Weather
+	"weather_extrasunny_la": "Extra Sunny 1",
+	"weather_extrasunny_smog_la": "Extra Sunny 2",
+	"weather_extrasunny_sf": "Extra Sunny 3",
+	"weather_extrasunny_vegas": "Extra Sunny 4",
+	"weather_extrasunny_countryside": "Extra Sunny 5",
+	"weather_extrasunny_desert": "Extra Sunny 6",
+	"weather_sunny_la": "Sunny 1",
+	"weather_sunny_smog_la": "Sunny 2",
+	"weather_sunny_sf": "Sunny 3",
+	"weather_sunny_vegas": "Sunny 4",
+	"weather_sunny_countryside": "Sunny 5",
+	"weather_sunny_desert": "Sunny 6",
+	"weather_cloudy_la1": "Cloudy 1",
+	"weather_cloudy_sf2": "Cloudy 2",
+	"weather_cloudy_vegas3": "Cloudy 3",
+	"weather_cloudy_countryside4": "Cloudy 4",
+	"weather_rainy_sf": "Rainy",
+	"weather_foggy_sf": "Foggy",
+	"weather_sandstorm_desert": "Sandstorm"
+}
